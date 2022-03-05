@@ -51,6 +51,7 @@ Trong thư mục examples là các chương trình demo của SFML, bạn có th
 
 Tập tin đính kèm:
 
+![bellum_sacrum_by_towerjunkieart_ded3iar-pre](https://user-images.githubusercontent.com/91585606/156887005-30ec3843-34ce-4a65-a097-2df16ca6e517.jpg)
 
 
 
