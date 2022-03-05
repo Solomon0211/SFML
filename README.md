@@ -29,7 +29,7 @@ Tập tin đính kèm:
 
 Ở đây mình sẽ tải bản cho Visual Studio 2017 64bit nhé!
 
-2. Tìm hiểu các thư mục trong bản pre-built
+##2.Tìm hiểu các thư mục trong bản pre-built
 
 Sau khi tải về, các bạn tiến hành giải nén sẽ được như hình. Ta chỉ quan tâm các thư mục bin, include, lib.
 
