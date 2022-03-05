@@ -6,7 +6,9 @@
 - [2.Tìm hiểu về các thư mục trong bản pre-built](#tìm-hiểu-về-thư-mục-trong-pre-built)
 - [3.Cài đặt SFML vào project](cài-đặt
 
-1. Tải bản pre-built SFML
+
+
+## 1.Tải bản pre-built SFML
 
 Để tải thì các bạn lên trang chủ của SFML.
 
