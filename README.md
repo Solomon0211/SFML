@@ -8,7 +8,7 @@
 
 
 
-##1. Tải bản pre-built SFML
+## 1. Tải bản pre-built SFML
 
 Để tải thì các bạn lên trang chủ của SFML.
 
@@ -30,7 +30,7 @@ Tại đây, các bạn sẽ thấy các bản pre-built cho các phiên bản c
 
 Ở đây mình sẽ tải bản cho Visual Studio 2017 64bit nhé!
 
-##2. Tìm hiểu các thư mục trong bản pre-built 
+## 2. Tìm hiểu các thư mục trong bản pre-built 
 
 Sau khi tải về, các bạn tiến hành giải nén sẽ được như hình. Ta chỉ quan tâm các thư mục bin, include, lib.
 
@@ -52,8 +52,8 @@ Trong thư mục examples là các chương trình demo của SFML, bạn có th
 
 ![image](https://user-images.githubusercontent.com/91585606/156887460-c9f7ba6e-acef-4725-938f-06193797681d.png)
 
-##3. Cài đặt SFML vào project
-###3.1. Tạo project trên Visual Studio
+## 3. Cài đặt SFML vào project
+### 3.1. Tạo project trên Visual Studio
 
 Các bạn tạo cho mình một Empty project. Ở đây mình sẽ đặt tên là SFML-Tutorial.
 
@@ -67,7 +67,7 @@ Rồi các bạn add file Main.cpp vào project.
 
 Lúc nãy nếu các bạn tải bản SFML cho windows 64bit thì chỉnh project ở dạng x64 (bạn nào tải 32bit thì thôi).
 Tập tin đính kèm:
-###3.2. Cấu hình project
+### 3.2. Cấu hình project
 
 Các bạn chọn chuột phải vào tên project sau đó chọn Property.
 
@@ -114,7 +114,7 @@ sfml-system.lib`
 
 Sau đó các bạn nháy OK để hoàn tất các quá trình.
 
-###3.3. Test thử
+### 3.3. Test thử
 
 Thế là OK. Bây giờ các bạn copy đoạn code bên dưới để test.
 
@@ -165,7 +165,7 @@ Tuy nhiên lúc này, nếu các bạn mở lên thì sẽ bị lỗi thiếu c�
 
 Đó là các cài đặt SFML cho project Visual Studio ở dạng dynamic linker. Ở dạng dynamic linker thì chương trình của các bạn sẽ phải cần các file dll để chạy. Nếu các bạn không thích sự phiền hà đó thì có thể cài đặt ở dạng static. Lúc này thì chương trình của các bạn sẽ không cần các file dll của SFML (vẫn cần file openal32.dll) nhưng chương trình của các bạn sẽ nặng hơn rất nhiều .
 
-##4. Cài đặt SFML dạng static linker
+## 4. Cài đặt SFML dạng static linker
 
 Các bước thì vẫn giống như trên. Chỉ có thêm 1 bước và khác bước add các file lib tại mục Additional Dependencies.
 Các bạn mở chọn C++ ---> Preprocessor --> Preprocessor Definitions ---> Edit
