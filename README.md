@@ -118,7 +118,7 @@ Sau đó các bạn nháy OK để hoàn tất các quá trình.
 
 Thế là OK. Bây giờ các bạn copy đoạn code bên dưới để test.
 
-`    #include <SFML/Graphics.hpp>
+    #include <SFML/Graphics.hpp>
     int main()
     {
         sf::RenderWindow window(sf::VideoMode(900, 500), "SFML-Tutorial", sf::Style::Close);
@@ -149,7 +149,7 @@ Thế là OK. Bây giờ các bạn copy đoạn code bên dưới để test.
 
         return 0;
     }
-`
+    
 Sau đó các bạn hãy build.
 
 ![image](https://user-images.githubusercontent.com/91585606/156887605-794b8921-0acd-460c-8ddd-c8633d5696db.png)
