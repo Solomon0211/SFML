@@ -1,12 +1,8 @@
 # SFML- Cài đặt và chạy chương trình đầu tiên với thư viện đồ họa SFML
 
-## Table of Contents
-- [0.Sơ lược về SFML](#1.Tải-bản-pre-built-SFML)
-- [1.Tải bản pre-built SFML](#tải-bản-pre-built-SFML)
-- [2.Tìm hiểu về các thư mục trong bản pre-built](#tìm-hiểu-về-thư-mục-trong-pre-built)
-- [3.Cài đặt SFML vào project](cài-đặt-SFML-vao-project)
-
-
+## Table of content
+[1. Tải bản pre-built SFML](1. Tải bản pre-built SFML)
+[2. Tìm hiểu các thư mục trong bản pre-built](2. Tìm hiểu các thư mục trong bản pre-built)
 
 ## 1. Tải bản pre-built SFML
 
