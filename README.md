@@ -30,7 +30,7 @@ Tại đây, các bạn sẽ thấy các bản pre-built cho các phiên bản c
 
 Ở đây mình sẽ tải bản cho Visual Studio 2017 64bit nhé!
 
-2. Tìm hiểu các thư mục trong bản pre-built
+2. Tìm hiểu các thư mục trong bản pre-built 
 
 Sau khi tải về, các bạn tiến hành giải nén sẽ được như hình. Ta chỉ quan tâm các thư mục bin, include, lib.
 
@@ -104,11 +104,11 @@ sfml-system-d.lib
 ![image](https://user-images.githubusercontent.com/91585606/156887585-945ccde7-49bd-4eef-bd4e-b0a9532efb50.png)
 
 Ở Release, các bạn gõ như sau:
-sfml-graphics.lib
+`sfml-graphics.lib
 sfml-audio.lib
 sfml-network.lib
 sfml-window.lib
-sfml-system.lib
+sfml-system.lib`
 
 ![image](https://user-images.githubusercontent.com/91585606/156887595-33bfb659-6f67-49de-83d8-df156422fc94.png)
 
@@ -118,7 +118,7 @@ Sau đó các bạn nháy OK để hoàn tất các quá trình.
 
 Thế là OK. Bây giờ các bạn copy đoạn code bên dưới để test.
 
-    #include <SFML/Graphics.hpp>
+`    #include <SFML/Graphics.hpp>
     int main()
     {
         sf::RenderWindow window(sf::VideoMode(900, 500), "SFML-Tutorial", sf::Style::Close);
@@ -149,7 +149,7 @@ Thế là OK. Bây giờ các bạn copy đoạn code bên dưới để test.
 
         return 0;
     }
-
+`
 Sau đó các bạn hãy build.
 
 ![image](https://user-images.githubusercontent.com/91585606/156887605-794b8921-0acd-460c-8ddd-c8633d5696db.png)
@@ -177,7 +177,7 @@ Các bạn gõ thêm dòng SFML_STATIC (làm cả Debug lẫn Release nhé).
 ![image](https://user-images.githubusercontent.com/91585606/156887669-1ffac1e1-029a-4055-bfe0-424c6b794f13.png)
 
 Ở Debug, các bạn thêm như sau. Chú ý là phải đúng thứ tự.
-sfml-graphics-s-d.lib
+`sfml-graphics-s-d.lib
 sfml-window-s-d.lib
 sfml-audio-s-d.lib
 sfml-network-s-d.lib
@@ -192,10 +192,10 @@ vorbisenc.lib
 vorbisfile.lib
 vorbis.lib
 ogg.lib
-ws2_32.lib
+ws2_32.lib`
 
 Ở Release, các bạn thêm như sau. Chú ý như trên .
-sfml-graphics-s-d.lib
+`sfml-graphics-s-d.lib
 sfml-window-s-d.lib
 sfml-audio-s-d.lib
 sfml-network-s-d.lib
@@ -211,7 +211,7 @@ vorbisfile.lib
 vorbis.lib
 ogg.lib
 ws2_32.lib
-
+`
 Sau đó các bạn nhấn OK để hoàn tất, rồi run và tận hưởng 😀
 OK, bài viết đến đây là hết rồi. Mình sẽ viết về cài đặt SFML cho Codeblocks trên Windows vào Phần 2.
 Các bạn cứ bình luận để bày tỏ ý kiến về bài viết cho mình nhé!! Bye 😀
