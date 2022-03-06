@@ -1,10 +1,10 @@
 # SFML- Cài đặt và chạy chương trình đầu tiên với thư viện đồ họa SFML
 
 ## Table of content
-[1. Tải bản pre-built SFML](1. Tải bản pre-built SFML)
-[2. Tìm hiểu các thư mục trong bản pre-built](2. Tìm hiểu các thư mục trong bản pre-built)
+[1.Tải bản pre-built SFML](1._Tải_bản_pre-built_SFML)
+[2.Tìm hiểu các thư mục trong bản pre-built](2.Tìm_hiểu_các_thư_mục_trong_bản_pre-built)
 
-## 1. Tải bản pre-built SFML
+## 1.Tải bản pre-built SFML
 
 Để tải thì các bạn lên trang chủ của SFML.
 
@@ -26,7 +26,7 @@ Tại đây, các bạn sẽ thấy các bản pre-built cho các phiên bản c
 
 Ở đây mình sẽ tải bản cho Visual Studio 2017 64bit nhé!
 
-## 2. Tìm hiểu các thư mục trong bản pre-built 
+## 2.Tìm hiểu các thư mục trong bản pre-built 
 
 Sau khi tải về, các bạn tiến hành giải nén sẽ được như hình. Ta chỉ quan tâm các thư mục bin, include, lib.
 
