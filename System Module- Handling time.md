@@ -28,10 +28,10 @@ SFML có 1 cách đơn giản để đo thời gian là sf::Clock. Nó chỉ có
 
 ![image](https://user-images.githubusercontent.com/91585606/158045273-ea9bab95-3d58-435b-8903-3258aec1bfbd.png)
 
-####
-sf::Time t1 = sf::microseconds(10000);
-sf::Time t2 = sf::milliseconds(10);
-sf::Time t3 = sf::seconds(0.01f);
+
+    sf::Time t1 = sf::microseconds(10000);
+    sf::Time t2 = sf::milliseconds(10);
+    sf::Time t3 = sf::seconds(0.01f);
 
 
 
