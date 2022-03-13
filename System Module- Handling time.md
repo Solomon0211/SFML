@@ -66,6 +66,8 @@ Note: ``restart`` cũng trả về giá trị thời gian trôi qua, vì vậy �
 
 
 `` Đây là bài viết mang ý kiến cá nhân mình hiểu được nên có sai sót gì các bạn cứ comment để mình sữa lại nhaa <3``
+
+
 [link bài viết gốc ở đây](https://www.sfml-dev.org/tutorials/2.5/system-time.php)
 
 
