@@ -1,3 +1,3 @@
-Handling time
-# Time trong SFML
+# Handling time
+## Time trong SFML
 ádgasfgsdfgsdsfsdfvsdfgadfgaf
