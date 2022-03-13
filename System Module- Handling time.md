@@ -24,5 +24,4 @@
 
   Đây là cách làm thể nào để vận dụng SFML để đo thời gian trôi qua. Và hầu hết mỗi program đều cần tính thời gian trôi qua ( measuring the time elapsed ).
 
-SFML có 1 cách đơn giản để đo thời gian là sf::Clock. Nó chỉ có 2 functions: 'getElapsedTime' 
-
+SFML có 1 cách đơn giản để đo thời gian là sf::Clock. Nó chỉ có 2 functions: ``sdfasdfd``
