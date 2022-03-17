@@ -48,9 +48,9 @@
   
   - No-member function với 1 đối số
   
-    void func(int x)
-    {
-    }
+      void func(int x)
+      {
+      }
 
-    sf::Thread thread(&func, 5);
-  
+      sf::Thread thread(&func, 5);
+
