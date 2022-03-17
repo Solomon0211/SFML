@@ -6,4 +6,4 @@
   
 ## SFML threads or std::thread ?
   Trong phiên bản 2011 của C++, Thư viện chuẩn trong C++ có cấp class về phân luồng. Tại thời điểm SFML được viết, C++11 vẫn chưa được viết và không có cách tiêu chuẩn để tạo luồng. Khi SFML 2.0 được phát hành, vẫn có rất nhiều vẫn không hỗ trợ cái này.
-    Nếu bạn sử dụng trình biển dịch có hỗ trợ thread thì nó là <thread> header, quên đi ``thread`` của SFML và ``sử dụng nó sẽ tốt hơn nhiều``. 
+    Nếu bạn sử dụng trình biển dịch có hỗ trợ thread thì nó là <thread> header, ``quên đi ``thread`` của SFML và sử dụng nó sẽ tốt hơn nhiều``. 
