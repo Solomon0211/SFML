@@ -6,4 +6,35 @@
   
 ## SFML threads or std::thread ?
   Trong phiên bản 2011 của C++, Thư viện chuẩn trong C++ có cấp class về phân luồng. Tại thời điểm SFML được viết, C++11 vẫn chưa được viết và không có cách tiêu chuẩn để tạo luồng. Khi SFML 2.0 được phát hành, vẫn có rất nhiều vẫn không hỗ trợ cái này.
-    Nếu bạn sử dụng trình biển dịch có hỗ trợ thread thì nó là <thread> header, ``quên đi ``thread`` của SFML và sử dụng nó sẽ tốt hơn nhiều``. 
+    Nếu bạn sử dụng trình biển dịch có hỗ trợ thread thì nó là <thread> header, `` quên đi thread của SFML và sử dụng nó sẽ tốt hơn nhiều. `` Nhưng nếu bạn sử dụng trình biên dịch trước năm 2011 thì dùng `` thread của SFML là giải pháp tốt nhất. ``
+
+  
+## Creating thread with SFML
+  Class có khả năng tạo ra  thread trong SFML là sf::thread và đây là cách nó hoạt động:
+  
+    #include <SFML/System.hpp>
+    #include <iostream>
+
+    void func()
+    {
+        // this function is started when thread.launch() is called
+
+        for (int i = 0; i < 10; ++i)
+            std::cout << "I'm thread number one" << std::endl;
+    }
+
+    int main()
+    {
+        // create a thread with func() as entry point
+        sf::Thread thread(&func);
+
+        // run it
+        thread.launch();
+
+        // the main thread continues to run...
+
+        for (int i = 0; i < 10; ++i)
+            std::cout << "I'm the main thread" << std::endl;
+
+        return 0;
+    }
