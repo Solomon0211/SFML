@@ -17,7 +17,7 @@
 
     void func()
     {
-        // this function is started when thread.launch() is called
+        // hàm này sẽ chạy khi có lệnh `` thread.launch() `` được gọi.
 
         for (int i = 0; i < 10; ++i)
             std::cout << "I'm thread number one" << std::endl;
@@ -25,7 +25,7 @@
 
     int main()
     {
-        // create a thread with func() as entry point
+        // tạo ra thread với func() là dữ liệu vào
         sf::Thread thread(&func);
 
         // run it
@@ -38,3 +38,8 @@
 
         return 0;
     }
+  
+  
+  Trong code này, cả 2 hàm `` main() `` và `` func() `` đều chạy song song với nhau sau khi lệnh `` thread.lauch() `` được gọi. Kết quả là test của 2 function trộn lẫn vào nhau trong màn hình console. 
+  
+  
