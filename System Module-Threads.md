@@ -46,14 +46,15 @@
 
   Điểm đầu vào của thread ( the entry point of the thread ), tức là function sẽ được chạy khi thread bắt đầu, sẽ được chuyển tới sf::thread, sf::thread sẽ cố gắng linh hoạt và chấp nhận nhiều điểm nhập: non-member function or member function, có hoặc hông có đối số, function,... Xem ví dụ để rõ hơn:
   
-  - No-member function với 1 đối số
+  - No-member function với 1 đối số.
   
-  
-      void func(int x)
-      {
-      }
+    void func(int x)
+    {
 
-      sf::Thread thread(&func, 5);
+    }
+
+    sf::Thread thread(&func, 5);
+  
 
  - Member function
    
@@ -68,7 +69,7 @@
 
     MyClass object;
     sf::Thread thread(&MyClass::func, &object);
-  
+
   
 - Functor (function-object):
   
