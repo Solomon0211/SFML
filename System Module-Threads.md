@@ -153,6 +153,7 @@
   ## Pausing threads 
   
   Không có chức năng nào trong sf :: Thread cho phép một luồng khác tạm dừng nó, cách duy nhất để tạm dừng một luồng là thực hiện nó từ mã mà nó chạy. Nói cách khác, bạn chỉ có thể tạm dừng luồng hiện tại. Để làm như vậy, bạn có thể gọi hàm sf :: sleep:
+  
 
     void func ()
 
