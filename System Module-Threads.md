@@ -42,4 +42,15 @@
   
   Trong code này, cả 2 hàm `` main() `` và `` func() `` đều chạy song song với nhau sau khi lệnh `` thread.lauch() `` được gọi. Kết quả là test của 2 function trộn lẫn vào nhau trong màn hình console. 
   
+  ![image](https://user-images.githubusercontent.com/91585606/158830063-0faf6909-5489-431b-b88d-20576aecb782.png)
+
+  Điểm đầu vào của thread ( the entry point of the thread ), tức là function sẽ được chạy khi thread bắt đầu, sẽ được chuyển tới sf::thread, sf::thread sẽ cố gắng linh hoạt và chấp nhận nhiều điểm nhập: non-member function or member function, có hoặc hông có đối số, function,... Xem ví dụ để rõ hơn:
+  
+  - No-member function với 1 đối số
+  
+    void func(int x)
+    {
+    }
+
+    sf::Thread thread(&func, 5);
   
