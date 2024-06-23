@@ -301,6 +301,11 @@ Nguyên nhân của việc này là gì? Cá thể sf :: Thread là cục bộ c
 
 Vì vậy, đừng quên: Bạn phải quản lý cá thể sf :: Thread của mình để nó tồn tại miễn là hàm luồng được cho là chạy.
   
+Vì vậy, đừng quên: Bạn phải quản lý cá thể sf :: Thread của mình để nó tồn tại miễn là hàm luồng được cho là chạy.
+Vì vậy, đừng quên: Bạn phải quản lý cá thể sf :: Thread của mình để nó tồn tại miễn là hàm luồng được cho là chạy.
+Vì vậy, đừng quên: Bạn phải quản lý cá thể sf :: Thread của mình để nó tồn tại miễn là hàm luồng được cho là chạy.
+Vì vậy, đừng quên: Bạn phải quản lý cá thể sf :: Thread của mình để nó tồn tại miễn là hàm luồng được cho là chạy.
+Vì vậy, đừng quên: Bạn phải quản lý cá thể sf :: Thread của mình để nó tồn tại miễn là hàm luồng được cho là chạy.
   
   
   
